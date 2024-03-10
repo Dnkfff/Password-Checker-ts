@@ -9,15 +9,14 @@ const readline = require('readline').createInterface({
 
 readline.question('Enter your password: ', password => {
     if (password === PASS){
-        console.log(`Success`);
+        console.log(`Password check went successfully`);
         readline.close();
     } else console.log('Wrong password'); readline.close();
-    // console.log(`Your password ${password}!`);
-    // readline.close();
 });  
 
-//console.log('password: ', PASS);
-
+/*
+ later add special symbols checking to password
+*/
 // const passw: RegExp = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,20}$/;
 // if (!password.match(passw)) {
 //   res.send("bad password");
