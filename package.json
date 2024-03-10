@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2"
+  },
+  "name": "password-checker",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified just yet\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Daniїl Dynikov",
+  "license": "MIT",
+  "description": "application to check your very long password knowledge"
+}
